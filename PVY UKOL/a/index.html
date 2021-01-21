@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programové a datové soubory</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Programové a datové soubory</h1>
+        <div class="menu flex-container">
+            <div class="link">
+                <a href="../b/index.html">
+                    Operační systémy</a>
+            </div>
+            <div class="link"><a href="../c/index.html">
+                    Ovladače, firmware a utility
+                </a></div>
+            <div class="link"><a href="../d/index.html">
+                    Aplikační software
+                </a></div>
+            <div class="link"><a href="../e/index.html">
+                    Emulace a virtualizace
+                </a></div>
+        </div>
+    </header>
+    <main>
+        <h3><b><abbr title="File">Soubor</abbr></b></h3>
+        <p> je množina souvisejících dat uložených na diskové jednotce. Název
+            souboru je
+            obvykle tvořen
+            <abbr title="ve Windows až 254
+            znaků">jménem</abbr> a příponou, která naznačuje <b>typ souboru</b>. K dalším vlastnostem souboru patří
+            jeho
+            velikost, <abbr title="vlastník">autor</abbr>
+            , datum vytvoření, datum změny, atributy, přístupová práva apod.
+            K přehlednější práci se soubory slouží systém <b>adresářů</b> či <abbr title="directories, folders">
+                složek</abbr>
+            . Adresáře tvoří na
+            disku typicky <abbr title="tree - strom">hierarchickou strukturu</abbr> ; základem je tzv. <abbr
+                title="root">kořenový adresář</abbr> označený
+            <abbr title="Unix, Linux">symbolem „/“</abbr>, nebo<abbr title="Windows">„\“</abbr>. Každý adresář může
+            obsahovat soubory i<b><abbr title="subdirectories"> podadresáře.</abbr></b>
+        </p>
+        <h3><b><abbr title="path"> Cesta </abbr></b></h3>
+        <p> Vyjadřuje umístění souboru vždy směrem od nejvyššího adresáře:
+            C:\XAMPP\mysql\bin\mysql.exe.
+            Pro operace se soubory využíváme někdy
+            <b><abbr title="wildcards">zástupné znaky</abbr></b>:
+        </p>
+        <p>▫ symbol<b> *</b><abbr title="např. *.*"> nahrazuje v názvu libovolný počet znaků;</abbr></p>
+        <p>▫ symbol<b> ?</b><abbr title="např. s?s.txt"> nahrazuje jeden libovolný znak.</abbr></p>
+        <h3><b>Programové soubory</b></h3>
+        <p> Obsahují instrukce, podle nichž procesor ve
+            spolupráci s dalšími hardwarovými komponentami plní konkrétní úlohy.
+            Mohou být uloženy v již zkompilované <abbr title="nejčastěji ve
+            strojovém kódu pro danou platformu">binární podobě</abbr>, nebo ve<b> zdrojovém kódu</b>, obsahujícím
+            příkazy
+            určitého programovacího
+            jazyka. Mezi programové
+            soubory můžeme zařadit také<b> skripty</b>, soubory instrukcí v textové podobě, které ke svému spuštění
+            vyžadují
+            speciální program -<b> interpret.</b></p>
+        <figure><img src="img/strojovykod.png" alt="StrojovýKód">
+            <figcaption>Strojový kód</figcaption>
+        </figure>
+        <figure><img src="img/zdrojovykod.png" alt="ZdrojovýKód">
+            <figcaption>Zdrojový kód</figcaption>
+        </figure>
+        <h3><b><abbr title="runtime libraries">Programové knihovny</abbr></b></h3>
+        <p>Větší programy jsou tvořeny<b><abbr title="runtime libraries"> programovými knihovnami</abbr></b>,
+            speciálními soubory s připravenými funkcemi, které programy využívají pro
+            svůj běh. Ve Windows to jsou např.<abbr title="obsahující zejména
+            ovladače čili drivery, ale i systémové funkce"> soubory DRV a SYS</abbr> , nebo také<b><abbr title="dynamic linking
+            library - dynamicky linkované knihovny"> DLL</abbr></b> , které mohou být podle potřeby<abbr
+                title="dynamicky">za
+                běhu</abbr> připojeny k jednomu i více programům.
+            Některé soubory s tzv.<b><abbr title="např. .exe a .com ve Windows, .sh v Linuxu"> spustitelnou
+                    příponou</abbr></b>
+            slouží ke spuštění
+            programu - aktivaci procesu v rámci
+            operačního systému. Za<b><abbr title="služby, démony"> rezidentní programy</abbr></b> označujeme
+            ty procesy, které<abbr title="např. antivirové programy"> jsou spuštěny automaticky po iniciaci operačního
+                systému</abbr>
+            .</p>
+        <h3><b>Datové soubory </b></h3>
+        <p> Obsahují<abbr title="číselné, textové,
+            grafické, zvukové údaje"> data různého charakteru</abbr>. K jejich zpracování se používají konkrétní
+            programy, a proto jsou často přípony těchto datových souborů<abbr title="propojeny"> asociovány</abbr> s
+            <abbr title="např. DOCX s programem MS
+            Word, nebo XLSX s programem MS Excel"> určitou aplikací
+            </abbr>.
+        </p>
+    </main>
+    <div class="menu flex-container">
+        <div class="link"><a href="">
+                &lt;&lt; Předchozí strana
+            </a></div>
+        <div class="link"><a href="../index.html">
+                Zpět na hlavní nabídku
+            </a></div>
+        <div class="link"><a href="../b/index.html">
+                Další strana &gt;&gt;
+            </a></div>
+    </div>
+    <footer>
+        <hr>
+        <p>&copy;2021 - Ondra Vícha</p>
+
+    </footer>
+
+</body>
+
+</html>
