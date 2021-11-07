@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programové a datové soubory</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Programy a data</h1>
+        <ul><b>
+                <li><a href="../b/index.html">Operační systémy</a></li>
+                <li><a href="../c/index.html">Ovladače, firmware a utility</a></li>
+                <li><a href="../d/index.html">Aplikační software</a></li>
+                <li><a href="../e/index.html">Emulace a virtualizace</a></li>
+            </b>
+        </ul>
+    </header>
+    <main>
+        <h2>Programové a datové soubory</h2>
+        <p> <b>Soubor</b> (<i>file</i>) je množina souvisejících dat uložených na diskové jednotce.
+            Název souboru je obvykle tvořen jménem a příponou, která naznačuje <b>typ souboru</b>.
+            K dalším vlastnostem souboru patří jeho velikost,
+            autor, datum vytvoření, datum změny, atributy, přístupová práva apod.</p>
+        <p> K přehlednější práci se soubory slouží systém <b>adresářů </b>či složek.
+            Adresáře tvoří na
+            disku typicky hierarchickou strukturu (<i>tree</i>); základem je tzv. <b>kořenový adresář</b> (<i>root</i>)
+            označený
+            symbolem „/“ pro Unix a Linux nebo „\“ pro Windows. Každý adresář může
+            obsahovat soubory i<b> podadresáře </b>(<i>subdirectories</i>).</p>
+        <p><b> Cesta</b> (<i>path</i>) vyjadřuje umístění souboru vždy směrem od nejvyššího adresáře:
+            C:\XAMPP\mysql\bin\mysql.exe.
+            Pro operace se soubory využíváme někdy
+            <b>zástupné znaky </b>(<i>wildcards</i>):
+        <p>
+            ▫ symbol<b> *</b> nahrazuje v názvu libovolný počet znaků (<i>např. *.*</i>);
+        <p>▫ symbol <b>?</b> nahrazuje jeden libovolný znak (<i>např. s?s.txt</i>).</p>
+        </p>
+        </p>
+        <p> <b>Programové soubory </b>obsahují instrukce, podle nichž procesor ve
+            spolupráci s dalšími hardwarovými komponentami plní konkrétní úlohy.
+            Mohou být uloženy v již zkompilované binární podobě (<i>nejčastěji ve
+                <b>strojovém kódu</b> pro danou platformu</i>), nebo ve <b>zdrojovém kódu</b>, obsahujícím příkazy
+            určitého programovacího
+            jazyka. Mezi programové
+            soubory můžeme zařadit také <b>skripty</b> , soubory instrukcí v textové podobě, které ke svému spuštění
+            vyžadují
+            speciální program - <b>interpret</b>.</p>
+            <figure>
+                <img src="img/strojovykod.png" alt="Strojový kód"><figcaption>Strojový kód</figcaption><img src="img/zdrojovykod.png">
+                <figcaption>Zdrojový kód </figcaption>
+            </figure>
+        <p> Větší programy jsou tvořeny <b>programovými knihovnami</b> (<i>runtime libraries</i>),
+            speciálními soubory s připravenými funkcemi, které programy využívají pro
+            svůj běh. Ve Windows to jsou např. soubory DRV a SYS (<i>obsahující zejména
+                ovladače čili drivery, ale i systémové funkce</i>), nebo také<b> DLL</b> (<i>dynamic linking
+                library - dynamicky linkované knihovny</i>), které mohou být podle potřeby za
+            běhu připojeny k jednomu i více programům.</p>
+        <p> Některé soubory s tzv. <b>spustitelnou příponou</b> (<i>např. .exe a .com ve Windows, .sh v Linuxu</i>)
+            slouží ke spuštění
+            programu - aktivaci procesu v rámci
+            operačního systému. Za<b> rezidentní programy</b> (<i>služby, démony</i>) označujeme
+            ty procesy, které jsou spuštěny automaticky po iniciaci operačního systému
+            (<i>např. antivirové programy</i>).</p>
+        <p> <b>Datové soubory </b>obsahují data různého charakteru (<i>číselné, textové,
+                grafické, zvukové údaje</i>). K jejich zpracování se používají konkrétní
+            programy, a proto jsou často přípony těchto datových souborů asociovány (<i>propojeny</i>) s určitou
+            aplikací
+            (<i>např. <a href="https://www.reviversoft.com/cs/file-extensions/docx">DOCX</a> s programem <a
+                    href="https://www.microsoft.com/cs-cz/microsoft-365/word">MS Word</a> , nebo
+                <a
+                    href="https://www.microsoft.com/cs-cz/p/xlsx-viewer-free/9nblggh6hbf4?activetab=pivot:overviewtab">XLSX</a>
+                s programem <a href="https://www.microsoft.com/cs-cz/microsoft-365/excel">MS Excel</a></i>).
+        </p>
+    </main>
+    <footer>
+        <hr>
+        <p>&copy;2020 - Ondra Vícha</p>
+
+    </footer>
+
+</body>
+
+</html>

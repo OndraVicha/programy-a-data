@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programové a datové soubory</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Programy a data</h1>
+        <ul><b>
+                <li><a href="../a/index.html">Programové a datové soubory</a></li>
+                <li><a href="../b/index.html">Operační systémy</a></li>
+                <li><a href="../c/index.html">Ovladače, firmware a utility</a></li>
+                <li><a href="../d/index.html">Aplikační software</a></li>
+            </b>
+        </ul>
+    </header>
+    <main>
+        <h2>Emulace a virtualizace</h2>
+        <p><b>Emulátor</b> je program, který umožňuje běh počítačových programů na
+            jiné platformě (<i>architektuře, operačním systému</i>), než pro kterou byly
+            původně vytvořeny a kterou samy od sebe podporují. Typickým příkladem emulátoru je program umožňující běh
+            videoher známých z herních konzol na běžném PC pod MS Windows nebo Linuxem. Jiným
+            příkladem může být emulátor DOSBox, který emuluje starý operační
+            systém MS DOS v prostředí novějších Windows, případně i na zcela
+            odlišných platformách.
+        <figure><img src="img/emulator.jpg">
+            <figcaption>Emulátor</figcaption>
+        </figure>
+        </p>
+        <p><b>Virtualizace</b> označuje v informatice postupy a techniky, které umožňují v počítači přistupovat k
+            dostupným
+            zdrojům jiným způsobem,
+            než jakým fyzicky existují. Virtualizaci je možné realizovat na různých
+            úrovních - od celého počítače (<i>tzv. virtuální stroj</i>), po jeho jednotlivé
+            hardwarové komponenty (např. virtuální procesory, virtuální paměť), až
+            po konkrétní softwarové prostředí (<i>virtualizace operačního systému</i>).
+        <figure><img src="img/virtual.png">
+            <figcaption>Virtualizace</figcaption>
+        </figure>
+        </p>
+        <p><b>Virtuální stroj</b> je speciální software, který dokáže simulovat skutečný počítač
+            (<i>včetně jeho procesoru, paměti, disku, přídavných karet</i>) a umožňuje instalaci
+            OS i dalších programů. Podmínkou virtualizace je výkonný počítač a potřebný
+            software – např. <a href="https://www.microsoft.com/cs-cz/download/details.aspx?id=3702"> Virtual PC</a>,<a
+                href="https://www.virtualbox.org/"> VirtualBox</a>,<a href="https://www.vmware.com/"> VMWare</a> apod.
+        <figure><img src="img/virtualbox.png">
+            <figcaption>Virtuální stroj Virtualbox</figcaption>
+        </figure>
+        </p>
+        Virtuální stroje se používají z bezpečnostních důvodů pro běh některých aplikací, aby tyto nemohly ohrozit
+        hostitelský počítač a jeho operační systém. Často jsou využívány i pro testování nových aplikací. Velmi
+        přínosná je virtualizace
+        na úrovni serverů - tzv. <b>konsolidace serverů</b> nabízí dokonalejší využití hardware, oddělený běh síťových
+        aplikací i vyšší bezpečnost dat.
+    </main>
+    <footer>
+        <hr>
+        <p>&copy;2020 - Ondra Vícha</p>
+    </footer>
+
+</body>
+
+</html>
